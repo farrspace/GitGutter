@@ -9,36 +9,7 @@ PACKAGE_PATH = os.path.dirname(__file__)
 MESSAGE_DIR = 'messages'
 MESSAGE_PATH = os.path.join(PACKAGE_PATH, MESSAGE_DIR)
 
-GLOBAL_MESSAGE = """
-
-
-💛 Git Gutter? Want to support development?
-
-I've teamed up with Wes Bos to offer the following discounts:
-
-+------------------------------------------------+
-|                                                |
-|   Use the coupon code GITGUTTER for $10 off    |
-|                                                |
-+------------------------------------------------+
-
-🏅 ⭐ ES6 ⭐
-
-👉 ES6.io/friend/GITGUTTER
-
-🏅 ⭐ Sublime Text Book ⭐
-
-👉 SublimeTextBook.com/friend/GITGUTTER
-
-🏅 ⭐ React For Beginners ⭐
-
-👉 ReactForBeginners.com/friend/GITGUTTER
-
-
-Join 15,000 other developers already learning with Wes Bos.
-
-These are fantastic resources - 100% money back guarantee! 🌟
-"""
+GLOBAL_MESSAGE = ""
 
 
 def get_message(fname):
